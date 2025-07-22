@@ -1,3 +1,23 @@
+@media (max-width: 600px){
+    nav li a{
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    body h2{
+        font-size:large;
+    }
+    body li{
+        font-size: small;
+    }
+    h1{
+        font-size: 18px;
+    }
+    .contactinfo img{
+        width: 20px;
+        height: 20px;
+    }
+
+}
 nav ul li a{
     text-decoration: none;
     color: rgb(78, 56, 36);
@@ -7,7 +27,7 @@ nav ul li a{
 nav ul li{
     list-style-type: none;
     display: inline-block;
-    margin-right: 30px;
+    margin-left: 10px;
 }
 nav ul {
     padding: 20px 40px;
@@ -33,7 +53,6 @@ header h1{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    margin-right: 10px;
     vertical-align: middle;
     margin-top: 0;
 
@@ -65,3 +84,6 @@ body h2, p, li{
 .contactinfo h2{
     color:rgb(78, 56, 36);
 }
+/*put your hands up in the air put your hands up in the air
+put all your hands up in the air
+i've been suck it all up to being boss lady fsdf sd a */
