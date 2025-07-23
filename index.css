@@ -16,8 +16,12 @@
         width: 20px;
         height: 20px;
     }
-
 }
+
+html{
+    min-width: 400px;
+}
+
 nav ul li a{
     text-decoration: none;
     color: rgb(78, 56, 36);
@@ -70,6 +74,34 @@ body h2{
     margin: 20px;
     padding: 10px;
     text-align: center;
+}
+.foodimg{
+    width: auto;
+    height: 200px;
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    max-width: 100%;
+    justify-content: center;
+}
+.orderimg{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    justify-content: center;
+}
+.orderimg figure{
+    margin: 0;
+}
+.orderimg img{
+    max-height: 200px;
+}
+.orderimg figcaption{
+    margin-top: 5px;
+    font-size: 0.5em;
+    color: #555;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .openorder{
     margin: 20px;
