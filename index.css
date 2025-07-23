@@ -83,6 +83,9 @@ body h2{
     overflow-x: auto;
     max-width: 100%;
     justify-content: center;
+    margin: 0;
+    padding-left: 400px;
+    
 }
 .orderimg{
     display: flex;
