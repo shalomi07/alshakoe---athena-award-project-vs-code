@@ -1,3 +1,4 @@
+/*
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
@@ -38,3 +39,4 @@ app.listen(3000, ()=> console.log('Server running on https://localhost:3000'));
 
 
 // idk what this all means, and haven't connected to frontend
+*/
