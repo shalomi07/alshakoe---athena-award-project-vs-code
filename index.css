@@ -16,6 +16,9 @@
         width: 20px;
         height: 20px;
     }
+    .foodimg{
+        padding-left: 400px;
+    }
 }
 
 html{
@@ -83,9 +86,7 @@ body h2{
     overflow-x: auto;
     max-width: 100%;
     justify-content: center;
-    margin: 0;
-    padding-left: 400px;
-    
+    margin: 0;    
 }
 .orderimg{
     display: flex;
